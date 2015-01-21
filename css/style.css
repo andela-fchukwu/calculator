@@ -1,0 +1,31 @@
+* {
+	background-color: white;
+  }
+
+
+h1
+{
+	color:pink;
+		text-align: center;
+
+}
+
+span{
+	color:red;
+}
+
+div h4
+{
+	color:#444;
+	border:1px solid #CCC;
+	padding:10px;
+	border-radius:5px;
+	text-align: center;
+	/*display:inline;!*/
+	background-color:#EFEFEF;
+
+}
+
+p{
+	color:blue;
+}
