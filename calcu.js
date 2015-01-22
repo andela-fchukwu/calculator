@@ -1,26 +1,53 @@
-function sin(val){
-	document.getElementById("d").value+=val;
-	}
-function c(val)
-{
-	document.getElementById("d").value=val;
-}
-function v(val)
-{
-	document.getElementById("d").value+=val;
-}
-function e() 
-{ 
-try 
-{ 
-  c(eval(document.getElementById("d").value)) 
-} 
-catch(e) 
-{
-  c('Error') 
-} 
-}  
 
+function s(val){
+ 	var getValue = document.getElementById("").value;
+	document.getElementById().value=Math.sin(getValue);
+}
+
+function s(val){
+	document.getElementById("d").value+=val;
+}
+
+
+
+function o(val){
+	document.getElementById("d").value=val;
+	y = (Math.cos(val)).value;
+    y.value;
+}
+
+function t(val){
+	document.getElementById("d").value=val;
+	y = (Math.tan(val)).value;
+    y.value;
+}
+
+function l(val){
+	document.getElementById("d").value=val;
+	y = (Math.log(val)).value;
+    y.value;
+}
+
+
+function c(val)
+	{
+		document.getElementById("d").value=val;
+	}
+function v(val)
+	{
+		document.getElementById("d").value+=val;
+	}
+function e() 
+	{ 
+try 
+	{ 
+  c(eval(document.getElementById("d").value)) 
+	} 
+catch(e) 
+	{
+  c('Error') 
+	} 
+}  
 
 
 /*$(document).ready(function(){
