@@ -1,20 +1,82 @@
-$(document).ready(function(){
-	var testNumLength = function(number) {
-        if (number.length > 9) {
-            totaldiv.text(number.substr(number.length-9,9));
-            if (number.length > 15) {
-                number = "";
-                totaldiv.text("Err");
-            }
-        } 
-    };
-	var number = "";
-    var newnumber = "";
-    var operator = "";
-    var totaldiv = $("#total");
-    totaldiv.text("0");
-    $("#numbers > a").not("#clear,#clearall").click(function(){
-		number += $(this).text();
-		totaldiv.text(number);
-		testNumLength(number);
-    });
+var y, m, a;
+
+function s(val)
+
+{
+        y = document.getElementById("d");
+        m = Math.sin(y.value);
+
+        y.value = m;
+        
+}
+
+function o(val)
+
+{
+        y = document.getElementById("d");
+        m = Math.cos(y.value);
+        y.value = m;
+        
+}
+
+function t(val)
+
+{
+        y = document.getElementById("d");
+        m = Math.tan(y.value);
+        y.value = m;
+        
+}
+
+function l(val)
+{
+        y = document.getElementById("d");
+        m = Math.log(y.value);
+        y.value = m;
+}
+
+function r(val)
+{
+        y = document.getElementById("d");
+        m = Math.sqrt(y.value);
+    y.value = m;
+}
+
+function q(val)
+
+{
+        
+    m = ((y.value)*(y.value));
+    y.value = m;
+}
+
+
+function c(val)
+    {
+        document.getElementById("d").value=val;
+    }
+function v(val)
+    {
+        document.getElementById("d").value+=val;
+    }
+function e() 
+    { 
+try 
+    { 
+  c(eval(document.getElementById("d").value)) 
+    } 
+catch(e) 
+    {
+  c('Error') 
+    } 
+}  
+
+
+
+
+
+
+
+
+
+
