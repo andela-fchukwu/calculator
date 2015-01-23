@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<script src ="calcu.js"></script>
+	<script type ="text/javascript" src ="calcu.js"></script>
 	<link rel="stylesheet" type="text/css" href="cal.css">
 	<title>calcul</title>
 	</head>
@@ -18,10 +18,10 @@
 
     	<div class="display"><input type="text" readonly size="18" value="0" id="d"></div>
     	<div id ="curly">
-    		<p><input type="button" class="button blac" value="sin" onclick='s("sin")'>
-    			<input type="button" class="button blac" value="cos" onclick='c("cos")'>
-    			<input type="button" class="button blac" value="tan" onclick='t("tan")'>
-    			<input type="button" class="button blac" value="log" onclick='l("log")'>
+    		<p><input type="button" class="button blac" value="sin" onclick='s("d");'>
+    			<input type="button" class="button blac" value="cos" onclick='o("d")'>
+    			<input type="button" class="button blac" value="tan" onclick='t("d")'>
+    			<input type="button" class="button blac" value="log" onclick='l("d")'>
    				<input type="button" class="button exit" value="C" onclick='c("")'>
    		 	</p>
    		</div>
@@ -35,25 +35,25 @@
 					<input type="button" class="button black" value="8" onclick='v("8")'>
 			    	<input type="button" class="button black" value="9" onclick='v("9")'>
 			 		<input type="button" class="button black" value="+" onclick='v("+")'>
-			 		<input type="button" class="button black" value="sqrt" onclick='v("sqrt")'></p>
+			 		<input type="button" class="button black" value="sqrt" onclick='r("sqrt")'></p>
 				
 				<p><input type="button" class="button black" value="4" onclick='v("4")'>
 					<input type="button" class="button black" value="5" onclick='v("5")'>
 					<input type="button" class="button black" value="6" onclick='v("6")'>
 					<input type="button" class="button black" value="-" onclick='v("-")'>
-					<input type="button" class="button black" value="^" onclick='v("^")'></p>
+					<input type="button" class="button black" value="^" onclick='p("^")'></p>
 
 				<p><input type="button" class="button black" value="1" onclick='v("1")'>
 					<input type="button" class="button black" value="2" onclick='v("2")'>
 					<input type="button" class="button black" value="3" onclick='v("3")'>
 					<input type="button" class="button bla" value="/" onclick='v("/")'>
-					<input type="button" class="button black" value="sq" onclick='v("sq")'></p>
+					<input type="button" class="button black" value="sq" onclick='q("sq")'></p>
 
 				<p><input type="button" class="button black" value="0" onclick='v("0")'>
 					<input type="button" class="button black" value="." onclick='v(".")'>
 					<input type="button" class="button brown" value="=" onclick='e("=")'>
 					<input type="button" class="button black" value="x" onclick='v("*")'>
-					<input type="button" class="button black" value="%" onclick='c("%")'>
+					<input type="button" class="button black" value="00" onclick='v("00")'>
 					</p>
 				</p>
 
